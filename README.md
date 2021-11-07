@@ -31,3 +31,18 @@ This image may take a few minutes to refresh.
 
 * for PXT/arcade
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+# Author comments
+Hello friends! My name is Yaroslav and this is my extension based on the code turtle. In this extension, the turtle draws all sorts of things. Now I will tell you a little more information about the extension.
+                
+**I ran a challenge**
+                
+I want to say that the code is not actually mine. Yes, I'm not a fool, and at the very bottom of the document I will leave links to the projects from which I copied the code. and therefore you ask the question, "What tasks are you performing?" Okay, okay, I'll answer! I set myself the task that if you see some code, then copy it to another editor. So I am copying others' tortoise based code. For me this is a test and pleasure and hard
+                
+Well, that's all I wanted to say. I hope there will be more information in the future
+
+### Owners of codes
+
+| Web | Hole | | Snower |
+| ------------- | ------------- | | ------------- |
+| I do not remember :( | https://blockly.games/turtle?level=10#bxyo7x  | | https://www.youtube.com/watch?v=TRNcZDbKYhM&ab_channel=DkUniverse |
