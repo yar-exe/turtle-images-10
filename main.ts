@@ -1,4 +1,4 @@
-//% color="#20B2AA" weight=100
+//% color="#20B2AA" weight=100 icon="\uf0a4"
 namespace Fractals {
     //% blockId=fractalsweb
     //% block="Web"
