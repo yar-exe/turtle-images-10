@@ -80,4 +80,38 @@ namespace Fractals {
         }
 
     }
+
+    //% blockId=fractalssnower
+    //% block="Snower: $length"
+    //% length.min=0 length.max=2500
+    export function Snower(length: number): void {
+        function make(iteration: number, length: number) {
+            if (iteration == 1) {
+                turtle.moveTurtleDirection(TurtleDirection.Forward, length / 3)
+            } else {
+                make(iteration - 1, length / 3)
+            }
+            turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 60)
+            if (iteration == 1) {
+                turtle.moveTurtleDirection(TurtleDirection.Forward, length / 3)
+            } else {
+                make(iteration - 1, length / 3)
+            }
+            turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 120)
+            if (iteration == 1) {
+                turtle.moveTurtleDirection(TurtleDirection.Forward, length / 3)
+            } else {
+                make(iteration - 1, length / 3)
+            }
+            turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 60)
+        }
+        turtle.setPositionCartesian(0, 0)
+        turtle.setPenColor(9)
+        turtle.clearScreen()
+        turtle.showTurtle()
+        turtle.pen(TurtlePenMode.Down)
+        turtle.setPositionCartesian(-80, -50)
+        make(5, length)
+        turtle.pen(TurtlePenMode.Up)
+    }
 }
